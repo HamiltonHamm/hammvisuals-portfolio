@@ -1,32 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HammVisuals photography and videography portfolio by Hamilton Hamm.">
-  <title>HammVisuals | Photography & Videography</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAMMVISUALS | Dallas & Denton Photography</title>
+  <meta name="description" content="HAMMVISUALS by Hamilton Hamm. Portraits, sports, weddings, graduation shoots, and video in Dallas, Denton, and UNT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#home">HAMM<span>VISUALS</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navMenu"><ul class="navbar-nav ms-auto gap-lg-3"><li class="nav-item"><a class="nav-link" href="#about">About</a></li><li class="nav-item"><a class="nav-link" href="#work">My Work</a></li><li class="nav-item"><a class="nav-link" href="#services">Services</a></li><li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li></ul></div>
-    </div>
-  </nav>
-  <header id="home" class="hero d-flex align-items-center">
-    <div class="container hero-content"><p class="eyebrow">PHOTOGRAPHY • VIDEOGRAPHY • CREATIVE STORYTELLING</p><h1>YOUR MOMENT.<br><em>YOUR STORY.</em></h1><p class="lead mt-4">I'm Hamilton Hamm, the photographer behind HammVisuals. I create portraits and visuals that help people remember their best moments.</p><a href="#work" class="btn btn-red mt-3 me-2">Explore My Work</a><a href="#contact" class="btn btn-outline-light mt-3">Let's Connect</a></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="HAMMVISUALS home">
+      <span class="brand-mark">HV</span>
+      <span>HAMMVISUALS</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">Get to Know Me</a>
+      <a href="inquiry.html#pricing">Pricing</a>
+      <a class="nav-cta" href="inquiry.html">Book</a>
+    </nav>
   </header>
+
   <main>
-    <section id="about" class="section-pad"><div class="container"><div class="row align-items-center g-5"><div class="col-lg-5"><img src="assets/camera.jpg" class="img-fluid rounded-3 feature-img" alt="Professional camera and lens on a dark studio background"></div><div class="col-lg-7"><p class="eyebrow">THE PERSON BEHIND THE CAMERA</p><h2>What's up, I'm <span class="accent">Hamilton Hamm.</span></h2><p>I'm a photographer and videographer creating work through my brand, HammVisuals. I enjoy capturing graduation milestones, studio portraits, lifestyle moments, and sports content.</p><p>My goal is to make every session feel comfortable, creative, and personal. I want people to leave with images they're proud to share.</p><a class="text-link" href="https://www.instagram.com/hammvisuals/" target="_blank" rel="noopener noreferrer">Follow @hammvisuals ↗</a></div></div></div></section>
-    <section id="work" class="section-pad section-alt"><div class="container"><p class="eyebrow text-center">WHAT I CREATE</p><h2 class="text-center mb-5">Selected <span class="accent">Work</span></h2><div class="row g-4"><div class="col-md-4"><article class="work-card"><img src="assets/graduation.jpg" alt="Graduation cap and diploma representing graduation photography"><div class="work-caption"><h3>Graduation</h3><p>Celebrate the milestone.</p></div></article></div><div class="col-md-4"><article class="work-card"><img src="assets/portrait.jpg" alt="Creative portrait photography with dramatic lighting"><div class="work-caption"><h3>Portraits</h3><p>Confidence in every frame.</p></div></article></div><div class="col-md-4"><article class="work-card"><img src="assets/sports.jpg" alt="Basketball on a court representing sports photography and video"><div class="work-caption"><h3>Sports & Lifestyle</h3><p>Capture the energy.</p></div></article></div></div><p class="text-center small muted mt-4">Sample images used for this class project. Visit my Instagram for my actual photography.</p></div></section>
-    <section id="services" class="section-pad"><div class="container"><p class="eyebrow text-center">WHAT I OFFER</p><h2 class="text-center mb-5">Creative <span class="accent">Services</span></h2><div class="row g-4"><div class="col-md-4"><div class="service-card"><div class="service-num">01</div><h3>Studio Portraits</h3><p>Clean lighting, creative concepts, and images that show your personality.</p></div></div><div class="col-md-4"><div class="service-card"><div class="service-num">02</div><h3>Graduation Photos</h3><p>Personal graduation sessions that celebrate everything you've accomplished.</p></div></div><div class="col-md-4"><div class="service-card"><div class="service-num">03</div><h3>Video Content</h3><p>Sports highlights, lifestyle videos, and short-form creative storytelling.</p></div></div></div></div></section>
-    <section id="contact" class="section-pad contact-section text-center"><div class="container"><p class="eyebrow">LET'S CREATE SOMETHING</p><h2>Have an idea? <span class="accent">Let's shoot.</span></h2><p class="mx-auto contact-copy">Whether you're celebrating a milestone or bringing a creative vision to life, I'd love to hear about it.</p><a class="btn btn-red mt-3" href="https://www.instagram.com/hammvisuals/" target="_blank" rel="noopener noreferrer">Message Me on Instagram</a></div></section>
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/campus-sunset.jpg" alt="">
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Dallas • Denton</p>
+        <h1>HAMMVISUALS</h1>
+        <p class="hero-copy">Portraits, sports, weddings, graduation, and video with a clean editorial feel.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="inquiry.html">Book a Shoot</a>
+          <a class="button ghost" href="#portfolio">View Work</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#portfolio" aria-label="Skip to portfolio">Scroll</a>
+    </section>
+
+    <section class="intro-band" id="about">
+      <div class="section-shell row g-5 mx-auto">
+        <div class="section-kicker col-md-6 reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2>Hamilton Hamm, behind HAMMVISUALS.</h2>
+        </div>
+        <div class="intro-copy col-md-6 reveal">
+          <p>I’m a Dallas and Denton based photographer and videographer creating visuals for portraits, sports, weddings, graduation moments, and personal brands.</p>
+          <p>The goal is simple: make the experience feel smooth, intentional, and personal while giving every client images that feel polished without losing the real moment.</p>
+          <a class="text-link" href="inquiry.html">Start your inquiry</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-section" id="portfolio">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Portfolio</h2>
+          <p>Graduation milestones, creative portraits, and athlete sessions photographed by Hamilton Hamm.</p>
+        </div>
+
+        <div class="filter-bar reveal" aria-label="Portfolio filters">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="portraits">Portraits</button>
+          <button class="filter" type="button" data-filter="sports">Sports</button>
+          <button class="filter" type="button" data-filter="graduation">Graduation</button>
+        </div>
+
+        <div class="gallery">
+          <button class="gallery-item reveal" type="button" data-category="portraits" data-title="Studio Graduation" data-image="assets/studio-red.jpg"><img src="assets/studio-red.jpg" alt="Graduate in a red suit adjusting a black graduation cap" loading="lazy"><span><strong>Portraits</strong>Studio Graduation</span></button>
+          <button class="gallery-item reveal" type="button" data-category="sports" data-title="Athlete Spotlight" data-image="assets/athlete.jpg"><img src="assets/athlete.jpg" alt="Athlete with trophies on a basketball court" loading="lazy"><span><strong>Sports</strong>Athlete Spotlight</span></button>
+          <button class="gallery-item reveal" type="button" data-category="graduation" data-title="UNT Graduation" data-image="assets/unt-grad.jpg"><img src="assets/unt-grad.jpg" alt="Graduate in a green gown beside the UNT sign" loading="lazy"><span><strong>Graduation</strong>UNT Graduation</span></button>
+          <button class="gallery-item reveal" type="button" data-category="graduation" data-title="Studio Celebration" data-image="assets/studio-blue.jpg"><img src="assets/studio-blue.jpg" alt="Graduate in a blue gown against a yellow studio background" loading="lazy"><span><strong>Graduation</strong>Studio Celebration</span></button>
+          <button class="gallery-item reveal" type="button" data-category="portraits" data-title="Creative Portraits" data-image="assets/creative-portrait.jpg"><img src="assets/creative-portrait.jpg" alt="Creative studio portrait with a blue background" loading="lazy"><span><strong>Portraits</strong>Creative Portraits</span></button>
+          <button class="gallery-item reveal" type="button" data-category="graduation" data-title="Campus Moments" data-image="assets/campus-grad.jpg"><img src="assets/campus-grad.jpg" alt="Graduate in white posing beside the UNT lettering" loading="lazy"><span><strong>Graduation</strong>Campus Moments</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <div class="section-shell cta-inner reveal">
+        <h2>Ready to plan the shoot?</h2>
+        <p>Send the details, choose a date, and let’s shape the visual direction together.</p>
+        <a class="button primary" href="inquiry.html">Start an Inquiry</a>
+      </div>
+    </section>
   </main>
-  <footer class="py-4"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"><span class="fw-bold">HAMM<span class="accent">VISUALS</span></span><span>© <span id="year">2026</span> Hamilton Hamm. Built with Bootstrap.</span></div></footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button class="lightbox-close" type="button" aria-label="Close preview">×</button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> HAMMVISUALS</p>
+    <div>
+      <a href="mailto:hammvisuals@gmail.com">hammvisuals@gmail.com</a>
+      <a href="https://www.instagram.com/hammvisuals" target="_blank" rel="noreferrer">@hammvisuals</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
