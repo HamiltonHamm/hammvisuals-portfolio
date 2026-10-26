@@ -1,3 +1,4 @@
+
 :root {
   --black: #0b0b0b;
   --charcoal: #1a1a1a;
@@ -736,3 +737,5 @@ h2 {
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none;transform:none}}
 .hero .eyebrow {color:#ffb8c4;}
 @media(max-width:760px){.hero h1{font-size:clamp(1.8rem,8.5vw,4rem);overflow-wrap:normal;}}
+.hero h1{font-size:clamp(1.8rem,6.4vw,6rem);overflow-wrap:normal;}
+@media(max-width:760px){.hero h1{font-size:clamp(1.8rem,8.5vw,4rem);}}
